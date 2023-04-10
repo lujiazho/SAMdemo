@@ -1,1 +1,3 @@
 # SAMdemo
+
+npm run start
