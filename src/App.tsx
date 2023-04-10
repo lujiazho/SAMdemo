@@ -489,8 +489,6 @@ const App = () => {
     setPredMasks(null);
   };
 
-  const [isStandalone, setIsStandalone] = useState(false);
-
   return (
     <>
       <Routes>
@@ -511,7 +509,6 @@ const App = () => {
                 setHasClicked={setHasClicked}
                 handleSelectedImage={handleSelectedImage}
                 image={image}
-                isStandalone={isStandalone}
               />
             </div>
           }
